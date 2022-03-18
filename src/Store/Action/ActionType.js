@@ -1,0 +1,9 @@
+export const SET_USER = "SET_USER";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const SET_LOADING = "SET_LOADING";
+export const SET_MIN_MAX_DATE = "SET_MIN_MAX_DATE";
+export const SET_LOADING_DATE = "SET_LOADING_DATE";
+export const LOGOUT = "LOGOUT";
+export const SET_DATE_RANGE = "SET_DATE_RANGE";
+export const SET_DASH_LOADING = "SET_DASH_LOADING";
+export const SET_DASHBOARD_DATA = "SET_DASHBOARD_DATA";

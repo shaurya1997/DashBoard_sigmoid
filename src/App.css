@@ -1,0 +1,149 @@
+body {
+  background-color: aliceblue;
+}
+.App {
+  align-items: center;
+  display: flex;
+}
+
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 20px;
+  margin-top: 30px;
+  border: 3px solid #ededed;
+  border-radius: 15px;
+}
+
+.form-input {
+  padding: 10px !important;
+}
+
+.form .btn {
+  margin-top: 50px;
+  background-color: rgb(105, 214, 105);
+  align-items: center;
+}
+.form .btn:hover {
+  background-color: rgb(105, 214, 105);
+}
+
+.checkbox {
+  display: flex;
+  vertical-align: middle;
+}
+.remember {
+  line-height: 3em !important;
+}
+.bars {
+  text-align: center;
+}
+.calender {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c9cdd0;
+  padding: 20px;
+}
+
+.parent_loader {
+  display: flex;
+  justify-content: center;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  display: flex;
+  justify-content: center;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+}
+
+.data_loader {
+  display: flex;
+  justify-content: center;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.btn {
+  margin: 10px !important;
+}
+.calendar-typo {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+.login-heading {
+  text-align: center;
+}
+.table-data {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.pie {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie_inner {
+  width: 50%;
+}
+.logout_btn {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+.error_msg {
+  text-align: center;
+}
+.redux-toastr .toastr .rrt-middle-container {
+  flex-grow: 1;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
